@@ -1,0 +1,517 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  /*Used the font inroduced on w3schools.com website as an example. Chose this one in order:
+  to strongly distinguish between the original font used.*/
+color: #00244a;
+font-family: 'Open Sans', sans-serif;
+padding: 2rem;
+font-size: 18px;
+margin-right: 12px;
+margin-left: 12px;
+}
+
+#cont {
+  color: #00244a;
+  text-decoration: none;
+}
+
+#cont:hover {
+  color:#ffa812;
+  text-decoration: underline;
+}
+
+.subhead::first-letter {
+  font-size: 190%;
+  font-weight: bold;
+  color:#ffa812;
+  margin-right: 7px;
+  float: left;
+}
+
+.heading {
+  margin-top: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.italic {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff0db;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #a18e7b;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ffa812;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*I was searching for a solution on stackoverflow.com website*/
+section {
+  margin-top: 20px;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+p {
+  /*I used my knowledge to do it*/
+  margin-top: 0;
+}
+
+/*This part is taken from w3schools.com*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+input[type=text]:hover {
+  background-color: #fff0db;
+}
+
+
+input[type=text]:focus {
+  border: 4px solid #ffa812;
+}
+
+#country {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  color:#00244a;
+}
+
+#country:hover {
+  border: 4px solid #ffa812;
+}
+/*This part was created by me before anything else in this task*/
+label input:hover {
+  background-color: #fff0db;
+}
+nav {
+  background-color: #00244a;
+  padding: 14px 12px;
+  margin-left: -44px;
+  margin-right: -44px;
+  margin-top: -34px;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+}
+/*Used https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/
+to remind myself the concept of both of the features. Then my common knowledge
+was used.*/
+p a:link {
+  text-decoration: none;
+  color: #ffa812;
+}
+p a:visited {
+  text-decoration: none;
+  color:#a18e7b;
+}
+
+p a:hover {
+  color: #ffa812;
+  text-decoration: underline;
+}
+
+a p {
+  color:#00244a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a p:hover {
+  color: #ffa812;
+  text-decoration: underline;
+}
+/*For this part I looked for different styling of images on w3schools.com*/
+#none:hover {
+  display: flex;
+  width:50%;
+
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: underline;
+  color:#ffa812;
+}
+
+#submit {
+  background-color: #ffa812;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.8rem;
+
+}
+#submit:hover, #reset:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#reset {
+  background-color: #a18e7b;
+  margin-right: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.8rem;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight:bold;
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button*/
+#add {
+
+  color: #ffa812;
+  background: #fff0db;
+  border: 2px solid #00244a;
+  border-color: #00244a;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.7rem;
+}
+
+#add:hover {
+  border:none;
+  color: #fff0db;
+  background: #00244a;
+}
+
+.button-nav {
+  cursor: pointer;
+  border:none;
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  background-color: #00244a;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #ffa812;
+}
+
+
+.dropdown {
+  float: left;
+
+}
+
+.dropdown:hover .dropbtn {
+  color: #ffa812;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff0db;
+  text-decoration: underline;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: #00244a;
+  padding: 14px 16px;
+  background-color: white;
+  margin: 0;
+}
+
+.dropdown-content {
+  font-size: 16px;
+  display: none;
+  position: absolute;
+  background-color: #fff0db;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #00244a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  color: #ffa812;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+/*
+.menu-content a {
+  float: none;
+  color: #00244a;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.menu-btn {
+   font-size: 20px;
+   font-family: 'Lato', sans-serif;
+   font-weight: bold;
+   border: none;
+   outline: none;
+   color: #00244a;
+   padding: 14px 16px;
+   background-color: white;
+   margin: 0;
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+   border:none;
+   float: left;
+
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color: #fff0db;
+   min-width: 200px;
+   z-index: 1;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.links {
+  font-size: 16px;
+   color: #00244a;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   border:none;
+
+}
+.links:hover {
+  color: #ffa812;
+  background-color: #fff0db;
+  text-decoration: underline;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+  color: #ffa812;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff0db;
+  text-decoration: underline;
+}*/
+
+.navy{
+  background-color: #00244a;
+  padding: 10px 12px;
+  font-size: 14px;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.navy:hover {
+  text-decoration: underline;
+  color: #ffa812;
+}
+
+.column {
+  float: left;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.price {
+  font-weight: bold;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    justify-content: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fff0db;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  width: 50%;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+ol li::before {
+  content: "0" counter(my-awesome-counter);
+  color:#ffa812;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  font-family: 'Abril Fatface', serif;
+  line-height: 1;
+}
+
+.panel {
+  width: 70%;
+  margin: 2em auto;
+}
+
+
+.panel-body {
+  width: 90%;
+  margin: 2em auto;
+  /*background-color: #fff0db;
+  border-radius: 8px;*/
+}
+
+
+.helper-text {
+  font-size: 12px;
+  margin-top: 5px;
+  height: 12px;
+  display: block;
+}
+
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
