@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Flower Hour</title>
+
+    <link href="css/t1.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+    <section id = "title_page">
+    <img src="img/logo.gif" alt="logo" style="float:left" padding: 10px width= 50 height= 112>
+      <h1>Flower Hour</h1>
+      
+
+      <h4>Providing the community with professional floral services</h4>
+      
+      
+      
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+           <div class="container">
+
+              
+        <a class = "button-nav1" href="index.html">Home</a>
+        <a class = "button-nav1" href="template.html">Shop</a>
+        <a class = "button-nav1" href="#colour_palette">About</a>
+        <a class = "button-nav1" href="template2.html">Checkout</a>
+
+      </div>
+      </section>
+      
+      
+       <section class="element">
+        <h2>Shop</h2>
+        
+      </section>
+      
+ <ol>
+ <section class ="element">
+  <li>Orchid Bouquet</li>
+  <p>$29.95</p>
+  <img src="img/orchidsale.jpg" alt="Orchid">
+  <p style="margin-left: 0em;padding: 0 30em 1em 0;">The Orchidaceae are a diverse and widespread family of flowering plants, with blooms that are often colourful and fragran.</p>
+  
+  <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+  
+  </section>
+  
+  <section class ="element">
+  <li>Rose Bouquet</li>
+  <p>$19.95</p>
+  <img src="img/rosesale.jpg" alt="Rose">
+  <p style="margin-left: 0em;padding: 0 30em 1em 0;">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.</p>
+  
+    <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+  </section>
+  
+    <section class ="element">
+  <li>Iris Bouquet</li>
+  <p>$29.95</p>
+  <img src="img/irissale.jpg" alt="Iris">
+  <p style="margin-left: 0em;padding: 0 30em 1em 0;">Iris is a genus of 260–300 species of flowering plants with showy flowers. It takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.</p>
+  
+    <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+  </section>
+  
+    <section class ="element">
+  <li>Birthday Basket</li>
+  <p>$39.95</p>
+  <img src="img/bdaysale.jpg" alt="BDay">
+    <p style="margin-left: 0em;padding: 0 30em 1em 0;">The birthday basket is a perfect gift for someone celebrating their born day. The basket includes a variety of exquisite flowers that the recipient is sure to love.</p>
+    
+      <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+    </section>
+
+    <section class ="element">
+  <li>Cactus Basket</li>
+  <p>$49.95</p>
+  <img src="img/cactussale.jpg" alt="Cactus">
+    <p style="margin-left: 0em;padding: 0 30em 1em 0;">A cactus is a member of the plant family Cactaceae, a family comprising about 127 genera with some 1750 known species of the order Caryophyllales.</p>
+    
+      <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+    </section>
+
+  <section class ="element">  
+  <li>Mixed Basket</li>
+  <p>$29.95</p>
+  <img src="img/mixedsale.jpg" alt="Orchid">
+    <p style="margin-left: 0em;padding: 0 30em 1em 0;">The mixed basket contains various species of exotic flowers that consist of a wide range of pigments that compliment one another.</p>
+    
+      <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+    </section>
+
+    <section class ="element">
+  <li>Red Poinsettia Basket</li>
+  <p>$39.95</p>
+  <img src="img/poinsettiasale.jpg" alt="Orchid">
+    <p style="margin-left: 0em;padding: 0 30em 1em 0;">The poinsettia is a commercially important plant species of the diverse spurge family.</p>
+    
+      <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+    </section>
+
+    <section class ="element">
+   <li>Senior Floral Legal Practitioner Dr. Basil Lefleur</li>
+  <p>$209.95 per hour</p>
+  <img src="img/lawyersale.jpg" alt="lawyer">
+   <p style="margin-left: 0em;padding: 0 30em 1em 0;">Are you in some floral related troubles with the law? Our senior on-call flower attorney will deal with these issues the best that he can. Dr. Lefleur graduated from the Harvard Law School in Cambridge Massachussettes and has 25 years of experience advising clients in botany related incidents. These cases ranged from exotic flower extinction, to a neighbourly dispute that ended at the Supreme Court level. Dr. Basil Lefleur guarantees your satisfaction "wheather we win or lose!" -Dr. Basil Lefleur </p>
+   
+     <a class = "button-nav2" href="nothing.html">Add to Cart</a>
+   </section>
+  
+</ol>
+
+<section class = "element">
+      <h3>
+      Shopping Cart: 2
+      </h3>
+        </section>
+
+      <section class = "element">
+        <a class = "button-nav1" href="template2.html">Checkout</a>
+        </section>
+      
+      </header>
+      
+      </body>
+      
+      </html>
+      
