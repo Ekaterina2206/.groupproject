@@ -152,6 +152,24 @@ input[type=text]:focus {
   border: 4px solid #ffa812;
 }
 
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+textarea:hover {
+  background-color: #fff0db;
+}
+
+
+textarea:focus {
+  border: 4px solid #ffa812;
+}
+
 #country {
   width: 100%;
   padding: 12px 20px;
