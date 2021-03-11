@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 
   <head>
 
@@ -130,6 +130,11 @@
         </section>
       
       </header>
+      
+      <footer>
+  <p>Author: Colin O'Neill <br>
+  <a href="mail to:colino@sfu.ca">hege@example.com</a></p>
+</footer>
       
       </body>
       

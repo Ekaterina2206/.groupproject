@@ -146,6 +146,7 @@ flex-wrap: wrap;
   color: ghostwhite;
   background-color: rgb(50, 50, 50);
   text-decoration: none;
+  transition-property: background-color; 
   transition-duration: 0.5s;
 }
 
