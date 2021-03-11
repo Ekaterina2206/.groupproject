@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 
   <head>
 
@@ -567,6 +567,11 @@ Tryit Editor v3.6, www.w3schools.com/css/tryit.asp?filename=trycss_buttons_round
 
 
 </header>
+
+<footer>
+  <p>Author: Colin O'Neill <br>
+  <a href="mail to:colino@sfu.ca">hege@example.com</a></p>
+</footer>
 
   </body>
 </html>
