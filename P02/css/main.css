@@ -466,10 +466,6 @@ h4 {
   }
 }
 
-.centered {
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /* Style the counter cards */
 .card {
