@@ -404,140 +404,164 @@
         <h3 class="italic">Checkout Cart</h3>
         <br>
 
-            <div class="row">
-              <div class="form-group col-7">
-                <h5 class="heading" style="font-size:24px; text-align:center">Billing Address</h5>
-                <br>
-            <div class="row">
-               <div class="form-group col-7">
-                 <label for="fname" style="font-weight:bold"><i class="fa fa-user"></i> Full Name</label> <div>
-                 <input type="text" id="fname" name="firstname" placeholder="John M. Doe" required style="width:175%"></div>
+        <div class="row">
+         <div class="col-2">
+            </div>
+        <div class="col-md-8 col-sm-12">
+           <br>
+           <h4 style="text-align:center">Order Summary</h4> <br><br>
+             <div class="row">
+                <div class="col-md-2">
+                    <img src="product1.png" alt="book title 1" style="width:100%; text-align:center">
+               </div>
+               <div class="col-md-5">
+                 <a href="singleproduct.html"  id="cont">1x John Steinbeck: Of Mice and Men</a>
+               </div>
+               <div class="col-md-2">
+                   <span class="price" >$11.99</span>
+               </div>
+                 <div class="col-md-3">
+                <button id="submit" class="button-nav" type="submit" style="width:110%;border-radius: 4px">Remove</button>
+                 </div>
+             </div>
+             <br><br>
+             <div class="row">
+                 <div class="col-md-2">
+                    <img src="product2.png" alt="book title 2" style="width:100%; text-align:center">
+               </div>
+               <div class="col-md-5">
+                 <a href="#"  id="cont">1x Ernest Hemingway: The Old Man and The Sea</a>
+               </div>
+               <div class="col-md-2">
+                   <span class="price">$12.99</span>
+               </div>
+                 <div class="col-md-3">
+                <button id="submit" class="button-nav" type="submit" style="width:110%;border-radius: 4px">Remove</button>
+                 </div>
+             </div>
+             <br>
+             <div class="row">
+                 <div class="col-md-2">
+                 </div>
+               <div class="col-md-5">
+                 <p style="font-weight:bold">Total</p>
+               </div>
+               <div class="col-3">
+                   <span class="price">$24.98</span>
                </div>
              </div>
+             <br>
              <div class="row">
-                <div class="form-group col-7">
-                  <label for="email" style="font-weight:bold"><i class="fa fa-envelope" ></i> Email</label><div>
-                  <input type="text" id="email" name="email" placeholder="john@example.com" required style="width:175%"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-7">
-                  <label for="country" style="font-weight:bold" required>Country</label>
-                </div>
-                <div class="col-7">
-                  <select id="country" name="country"  style="width:175%">
+               <div class="col-11">
+                   <a href = "2.html">
+                 <button id="submit" class="button-nav" type="submit" style="width:110%;border-radius: 4px">Continue</button>
+                   </a>
+               </div>
+             </div>
+         </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <h5 class="heading" style="font-size:28px; text-align:center">Billing Address</h5>
+            <br>
+
+            <label for="cardholder-name" style="font-weight:bold" required>Full Name</label>
+            <div> <input type="text" class="form-control" id="cardholder-name" placeholder="Full Name"> </div>
+            <span class="helper-text"></span>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <label for="card-number" style="font-weight:bold">Email</label>
+            <div id="card-logo" class="input-group-addon">
+                <input type="text" class="form-control" id="card-number" placeholder="john@example.com">
+            </div>
+            <span class="helper-text" id="card-help"></span>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <label for="card-number" style="font-weight:bold">Country</label>
+            <div id="card-logo" class="input-group-addon">
+                <select id="country" name="country">
                     <option value="australia">Australia</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
-                  </select>
-                </div>
-                <br><br><br>
+                </select>
+            </div>
+            <span class="helper-text" id="card-help"></span>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <label for="card-number" style="font-weight:bold">Street Address</label>
+            <div id="card-logo" class="input-group-addon">
+                <input type="text" class="form-control" id="card-number" placeholder="542 W. 15th Street">
+            </div>
+            <span class="helper-text" id="card-help"></span>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <label for="card-number" style="font-weight:bold">City</label>
+            <div id="card-logo" class="input-group-addon">
+                <input type="text" class="form-control" id="card-number" placeholder="New York">
+            </div>
+            <span class="helper-text" id="card-help"></span>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
 
-              </div>
-              <div class="row">
-                 <div class="form-group col-7">
-                   <label for="adr" style="font-weight:bold" required><i class="fa fa-address-card-o"></i> Street Address</label><div>
-                   <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" style="width:175%"></div>
-                 </div>
-               </div>
-               <div class="row">
-                  <div class="form-group col-7">
-                    <label for="city" style="font-weight:bold" required><i class="fa fa-institution"></i> City</label><div>
-                    <input type="text" id="city" name="city" placeholder="New York" style="width:175%"></div>
-                  </div>
-                </div>
-                <div class="row">
-           			 <!--Hosted Field for CC EXP-->
-                  <div class="form-group col-5">
-                     <label for="zip code" style="font-weight:bold" required>Zip Code</label>
-                     <div id="zip code">
-                       <input type="text" class="form-control" id="zip code" placeholder="A2B 3C4" required>
-                     </div>
-                  </div>
-           			<!--Hosted Field for CC CVV-->
-           			<div class="form-group col-2">
-                    <label for="state" style="font-weight:bold">State</label>
-                    <div>
-                      <select id="country" name="country" required style="width:420%">
-                        <option value="australia">Alberta</option>
-                        <option value="canada">British Columbia</option>
-                        <option value="usa">Manitoba</option>
-                        <option value="usa"> New Brunswick</option>
-                        <option value="usa">Newfoundland and Labrador</option>
-                        <option value="usa">Nova Scotia</option>
-                        <option value="usa">Ontario</option>
-                        <option value="usa">Prince Edward Island</option>
-                        <option value="usa">Quebec</option>
-                        <option value="usa">Saskatchewan</option>
-                      </select>
-                    </div>
-                 </div>
-               </div>
+        <div class="col-md-5 col-sm-7">
+            <label for="exp-date" style="font-weight:bold">Zip Code</label>
+            <div id="exp-date">
+            <input type="text" class="form-control" id="exp-date" placeholder="A2B 3C4">
+            </div>
+        </div>
 
-                <div class="row">
-                   <div class="form-group col-7">
-                     <label for="city" style="font-weight:bold" ><i class="fa fa-institution"></i> Phone Number</label><div>
-                     <input type="text" id="nmb" name="number" placeholder="+1(437)111 11 11" style="width:175%"></div>
-                   </div>
-                 </div>
-                </div>
-                 <div class="form-group col-5">
-                   <br>
-                   <h4 style="text-align:left">&nbsp; &nbsp;Order Summary</h4> <br>
-
-                     <div class="row">
-                       <div class="form-group col-4">
-                         <a href="#"  id="cont">Product 1</a>
-                       </div>
-                       <div class="form-group col-1">
-                           <span class="price" >$15</span>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="form-group col-4">
-                         <a href="#"  id="cont">Product 2</a>
-                       </div>
-                       <div class="form-group col-1">
-                           <span class="price">$8</span>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="form-group col-4">
-                         <a href="#"  id="cont">Product 3</a>
-                       </div>
-                       <div class="form-group col-1">
-                           <span class="price" style="text-align:right">$5</span>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="form-group col-4">
-                         <a href="#"  id="cont">Product 4</a>
-                       </div>
-                       <div class="form-group col-1">
-                           <span class="price">$15</span>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="col-5">
-                         <hr>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="form-group col-4">
-                         <p>Total</p>
-                       </div>
-                       <div class="form-group col-1">
-                           <span class="price">$46</span>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="col-5">
-                         <button id="submit" class="button-nav" type="submit" style="width:110%;border-radius: 4px">Continue</button>
-                       </div>
-                     </div>
-                 </div>
-              </div>
-
+        <div class="col-md-3 col-sm-5">
+            <label for="cvv" style="font-weight:bold">State</label>
+            <div id="cvv">
+                <select id="country" name="country" required>
+                    <option value="australia">Alberta</option>
+                    <option value="canada">British Columbia</option>
+                    <option value="usa">Manitoba</option>
+                    <option value="usa"> New Brunswick</option>
+                    <option value="usa">Newfoundland and Labrador</option>
+                    <option value="usa">Nova Scotia</option>
+                    <option value="usa">Ontario</option>
+                    <option value="usa">Prince Edward Island</option>
+                    <option value="usa">Quebec</option>
+                    <option value="usa">Saskatchewan</option>
+                </select>
+            </div>
+         </div>
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <label for="card-number" style="font-weight:bold">Phone Number</label>
+            <div id="card-logo" class="input-group-addon">
+                <input type="text" class="form-control" id="card-number" placeholder="+1(437)111 11 11">
+            </div>
+            <span class="helper-text" id="card-help"></span>
+        </div>
+</div>
 
 <!--
 <hr>
