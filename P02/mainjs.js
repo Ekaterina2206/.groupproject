@@ -1,4 +1,4 @@
-
+"use strict";
 
 
 $("#slideshow > div:gt(0)").hide();
