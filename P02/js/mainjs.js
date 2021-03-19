@@ -1,5 +1,12 @@
 "use strict";
 
+(function($) {
+    $(function() {
+        $('.update').live('change', function() {
+            formObject.run($(this));
+        });
+    });
+})(jQuery);
 
 $("#slideshow > div:gt(0)").hide();
 
